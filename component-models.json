@@ -161,6 +161,55 @@
     ]
   },
   {
+    "id": "charts",
+    "fields": [
+      {
+        "component": "text",
+        "name": "chartConfigPath",
+        "label": "Chart Config Path"
+      },
+      {
+        "component": "text",
+        "name": "chartDataPath",
+        "label": "Chart Data Path"
+      },
+      {
+        "component": "text",
+        "name": "chartTitle",
+        "label": "Chart Title"
+      },
+      {
+        "component": "text",
+        "name": "yAxisLabel",
+        "label": "Y Axis Label"
+      },
+      {
+        "component": "text",
+        "name": "xAxisLabel",
+        "label": "X Axis Label"
+      },
+      {
+        "component": "select",
+        "name": "chartType",
+        "label": "Type of Chart",
+        "options": [
+          {
+            "name": "Bar Chart",
+            "value": "bar"
+          },
+          {
+            "name": "Line Chart",
+            "value": "line"
+          },
+          {
+            "name": "Pie Chart",
+            "value": "pie"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "columns",
     "fields": [
       {

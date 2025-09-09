@@ -1,10 +1,12 @@
 {
   "mappings": [
-    "/content/aem-boilerplate/:/",
-    "/content/aem-boilerplate/configuration:/.helix/config.json",
-    "/content/aem-boilerplate/metadata:/metadata.json"
+    "/content/divkblr/:/",
+    "/content/divkblr/configuration:/.helix/config.json",
+    "/content/divkblr/metadata:/metadata.json",
+    "/content/divkblr/bar-chart:/bar-chart.json",
+    "/content/divkblr/bar-chart-config:/bar-chart-config.json"
   ],
   "includes": [
-    "/content/aem-boilerplate/"
+    "/content/divkblr/"
   ]
 }
