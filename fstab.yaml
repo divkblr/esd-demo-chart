@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://author-p130360-e1272151.adobeaemcloud.com/bin/franklin.delivery/divkblr/esd-demo-chart/main"
+    url: "https://author-p135369-e1615158.adobeaemcloud.com/bin/franklin.delivery/divkblr/esd-demo-chart/main"
     type: "markup"
     suffix: ".html"
