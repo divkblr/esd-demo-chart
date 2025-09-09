@@ -10,6 +10,7 @@ import {
   loadSection,
   loadSections,
   loadCSS,
+  loadScript
 } from './aem.js';
 
 /**
@@ -114,6 +115,9 @@ async function loadEager(doc) {
  * @param {Element} doc The container element
  */
 async function loadLazy(doc) {
+     await loadScript(
+    'https://cdn.jsdelivr.net/npm/chart.js@4.5.0/dist/chart.umd.min.js'
+  );
   const main = doc.querySelector('main');
   await loadSections(main);
 
