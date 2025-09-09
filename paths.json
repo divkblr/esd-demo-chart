@@ -1,12 +1,12 @@
 {
   "mappings": [
-    "/content/divkblr/:/",
-    "/content/divkblr/configuration:/.helix/config.json",
-    "/content/divkblr/metadata:/metadata.json",
-    "/content/divkblr/bar-chart:/bar-chart.json",
-    "/content/divkblr/bar-chart-config:/bar-chart-config.json"
+    "/content/divesh-chart-eds/:/",
+    "/content/divesh-chart-eds/configuration:/.helix/config.json",
+    "/content/divesh-chart-eds/metadata:/metadata.json",
+    "/content/divesh-chart-eds/bar-chart:/bar-chart.json",
+    "/content/divesh-chart-eds/bar-chart-config:/bar-chart-config.json"
   ],
   "includes": [
-    "/content/divkblr/"
+    "/content/divesh-chart-eds/"
   ]
 }
